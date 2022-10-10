@@ -3,70 +3,70 @@
     border-radius: 4px;
     width: 250px;
     overflow: hidden;
-            margin: 20px auto;
-            box-shadow: 4px 4px 5px -3px rgba(0, 0, 0, 0.5);
-    }
+    margin: 20px auto;
+    box-shadow: 4px 4px 5px -3px rgba(0, 0, 0, 0.5);
+}
     
-    .description {
-        padding: 30px 60px;
-        text-align: center;
-        background-color: white;
-    }
+.description {
+    padding: 30px 60px;
+    text-align: center;
+    background-color: white;
+}
     
-    .avatar {
-        width: 100px;
-        height: 100px;
-        border-radius: 50%;
-        border: 1px solid gray;
-        margin: 0 0 20px;
-    }
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid gray;
+    margin: 0 0 20px;
+}
     
-    .name {
-        font-size: large;
-        font-weight: 700;
-        margin: 0 0 10px;
-    }
+.name {
+    font-size: large;
+    font-weight: 700;
+    margin: 0 0 10px;
+}
     
-    .tag {
-        margin: 0 0 10px;
-        font-size: small;
+.tag {
+    margin: 0 0 10px;
+    font-size: small;
+    color: gray;
+}
+
+.location {
+    margin: 0 0 10px;
+    font-size: small;
         color: gray;
-    }
-    
-    .location {
-        margin: 0 0 10px;
-        font-size: small;
-            color: gray;
-    }
-    
-    .stats {
-        list-style: none;
-        display: flex;
-        padding: 0;
-        margin: 0;
-        border-top: 2px solid rgb(181, 180, 180);
-    }
-    
-    .statsItem {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        width: calc(100% / 3);
-        padding: 15px 0;
-        background-color: #eff5f7;
-    }
-    .statsItem:not(:last-child) {
-        border-right: 2px solid rgb(181, 180, 180);
-    }
-    
-    .label {
-        font-size: smaller;
-        color: gray;
-    }
-    
-    .quantity {
-        font-size: medium;
-        color: black;
-        font-weight: 700;
-    }
+}
+
+.stats {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    border-top: 2px solid rgb(181, 180, 180);
+}
+
+.statsItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: calc(100% / 3);
+    padding: 15px 0;
+    background-color: #eff5f7;
+}
+.statsItem:not(:last-child) {
+    border-right: 2px solid rgb(181, 180, 180);
+}
+
+.label {
+    font-size: smaller;
+    color: gray;
+}
+
+.quantity {
+    font-size: medium;
+    color: black;
+    font-weight: 700;
+}

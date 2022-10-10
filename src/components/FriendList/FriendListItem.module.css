@@ -10,16 +10,18 @@ box-shadow: 4px 6px 5px -3px rgba(0, 0, 0, 0.5);
 margin: 0 auto 5px;
 }
 
-.status {
+.onLine {
     width: 20px;
     height: 20px;
     border-radius: 50%;
     margin-left: 5px;
-}
-.onLine {
     background-color: green;
 }
 .ofLine {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-left: 5px;
     background-color: red;
 }
 
